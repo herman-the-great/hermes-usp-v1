@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "root": "~/.hermes/Hermes-USP-v1",
+  "database": {
+    "path": "~/.hermes/Hermes-USP-v1/usp.db"
+  },
+  "gmail": {
+    "token_path": "~/.hermes/google_token_usp.json",
+    "client_secret_path": "~/.hermes/google_client_secret_usp.json",
+    "from_email": "hermancarter373@gmail.com",
+    "api_script": "~/.hermes/skills/productivity/google-workspace/scripts/google_api_usp.py"
+  },
+  "discovery": {
+    "google_places_api_key": "AIzaSyB8ayELH2P1skusAbj9eaB2mdS3Y-UtN2g",
+    "default_radius_meters": 8000,
+    "default_location": {
+      "lat": 39.7392,
+      "lng": -104.9903
+    }
+  },
+  "enrichment": {
+    "enabled": true,
+    "sources": [
+      "google_places"
+    ]
+  },
+  "draft_generation": {
+    "model": "local",
+    "local_endpoint": "http://localhost:11434",
+    "review_model": "cloud",
+    "max_review_loops": 3
+  },
+  "telegram": {
+    "enabled": false,
+    "summary_target": null
+  },
+  "active": true,
+  "created_at": "2026-04-10T15:19:00-06:00"
+}

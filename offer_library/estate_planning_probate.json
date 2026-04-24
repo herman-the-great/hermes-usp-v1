@@ -1,0 +1,101 @@
+{
+  "_comment": "USP-only approved offer language for estate_planning_probate vertical. Built from USP one-pager source (img_5f5a88085d34.jpg uploaded 2026-04-12). No external business context authorized without cross_vertical_approval.json bridge.",
+  "_source_file": "img_5f5a88085d34.jpg",
+  "vertical": "estate_planning_probate",
+  "default_policy": "no_external_context",
+  "offer_framing": {
+    "opening_angle": "Denver-area workflow improvement firm reaching out to estate planning and probate law firms",
+    "positioning_statements": [
+      "practical workflow systems for estate planning and probate law firms",
+      "human-reviewed workflow improvement \u2014 no black-box automation",
+      "founder-led operations team helping firms reduce admin drag in client intake and estate administration"
+    ],
+    "call_to_action": "brief call to discuss how workflow improvement could serve your firm",
+    "offer_context": "call to explore fit \u2014 no cost, no commitment"
+  },
+  "pain_point_mapping": {
+    "client_intake_friction": "estate planning intake requiring too many forms, calls, and manual follow-up steps",
+    "document_collection": "collecting wills, trusts, and estate documents creating repeated back-and-forth with clients and families",
+    "probate_workflow_coordination": "probate administration coordination across beneficiaries, attorneys, and courts needing better tracking and handoff systems",
+    "client_communication_gaps": "estate planning clients needing updates and status visibility during the planning or probate process"
+  },
+  "target_client_profile": {
+    "firm_size": "small to mid-sized estate planning and probate law firms",
+    "firm_characteristics": "lean teams managing client intake, document collection, and probate administration with too much workflow living in inboxes, manual checklists, and staff memory",
+    "service_area": "Denver, Boulder, Longmont, and surrounding areas"
+  },
+  "process_steps": {
+    "1_diagnose": "Dig into current estate planning intake, document flow, probate workflow coordination, and client communication gaps",
+    "2_design": "Recommend the highest-value fix, confirm scope, and shape the plan around how the firm already handles client relationships",
+    "3_build_support": "Implement the solution, hand it off cleanly, and support the team for 2 weeks so it sticks"
+  },
+  "offer_options": {
+    "offer_a": {
+      "name": "Estate Planning Workflow Review + Action Plan",
+      "price_display": "DISCUSSED_ON_CALL",
+      "price_rule": "never mention specific pricing in cold outreach \u2014 price only if prospect asks",
+      "includes": [
+        "1-hour discovery call",
+        "estate planning intake workflow review",
+        "3 practical improvement opportunities",
+        "short written action plan"
+      ]
+    },
+    "offer_b": {
+      "name": "Client Operations Starter Build",
+      "price_display": "DISCUSSED_ON_CALL",
+      "price_rule": "never mention specific pricing in cold outreach \u2014 price only if prospect asks",
+      "includes": [
+        "one core estate planning or probate workflow improved",
+        "one automation or human-reviewed assisted process",
+        "SOP and video handoff",
+        "2 weeks of support"
+      ]
+    }
+  },
+  "typical_starter_workflows": [
+    "estate planning client onboarding",
+    "initial will and trust intake",
+    "document request and collection",
+    "probate case intake",
+    "beneficiary communication",
+    "status update tracking",
+    "court filing coordination"
+  ],
+  "subject_line_templates": {
+    "A_tier_named": [
+      "workflow improvement for your estate planning firm",
+      "question about your firm workflow operations",
+      "estate planning firm workflow review \u2014 Denver"
+    ],
+    "C_tier_generic": [
+      "Denver estate planning firm workflow improvement opportunity",
+      "probate firm operations review \u2014 Denver",
+      "estate planning practice workflow fit call"
+    ]
+  },
+  "body_language_rules": {
+    "no_pricing": true,
+    "no_product_or_brand_names": true,
+    "no_brand_references": true,
+    "no_artist_creator_gallery_terms": true,
+    "no_personal_familiarity_unless_named": true,
+    "company_level_observation_tone": "professional, peer-level, no hype",
+    "named_person_tone": "professional, concise, peer-level",
+    "footer_context": "founder-led implementation partner for cleaner operations and human-reviewed workflow systems"
+  },
+  "cta_language": {
+    "primary_cta": "reply to schedule a free 10-minute workflow fit call",
+    "call_recipient": "reply to the email to schedule with the co-founder",
+    "barrier_removal": "no cost, no commitment \u2014 exploratory call only"
+  },
+  "compliance_disclaimer": "estate planning workflow support only; not legal advice, bar association guidance, or licensed legal services. Results vary by firm and jurisdiction.",
+  "approved_verticals": [
+    "estate_planning_probate"
+  ],
+  "created_at": "2026-04-11T00:00:00+00:00",
+  "author": "operator_from_usp_one_pager_img_f104f628670b",
+  "review_required": true,
+  "one_pager_asset_path": "/home/cortana/.hermes/image_cache/estate_planning_probate_one_pager.jpg",
+  "one_pager_mode": "inline"
+}

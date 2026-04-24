@@ -1,0 +1,101 @@
+{
+  "_comment": "USP-only approved offer language for accounting_bookkeeping vertical. Built from uploaded one-pager (Ugly Sweater Party LLC). No external business context (MyPalette, MetaSill, artist, creator, gallery) authorized without cross_vertical_approval.json bridge.",
+  "_source_file": "uploaded_one_pager_acctg_bookkeeping_2026-04-11",
+  "vertical": "accounting_bookkeeping",
+  "default_policy": "no_external_context",
+  "offer_framing": {
+    "opening_angle": "Denver-area workflow improvement firm reaching out to accounting and bookkeeping firms",
+    "positioning_statements": [
+      "practical workflow systems for accounting and bookkeeping firms",
+      "human-reviewed workflow improvement \u2014 no black-box automation",
+      "founder-led operations team helping firms reduce admin drag"
+    ],
+    "call_to_action": "brief call to discuss how workflow improvement could serve your firm",
+    "offer_context": "call to explore fit \u2014 no cost, no commitment"
+  },
+  "pain_point_mapping": {
+    "document_chasing": "staff losing time chasing documents, reminders, and missing client information",
+    "inbox_overload": "too much workflow living in inboxes, manual follow-up, and inconsistent handoffs",
+    "admin_leakage": "owners and senior staff carrying admin work that should be easier to delegate and track",
+    "recurring_operations": "tightening recurring operations without risky automation"
+  },
+  "target_client_profile": {
+    "firm_size": "small to mid-sized accounting and bookkeeping firms",
+    "firm_characteristics": "lean teams, growing client load, too much day-to-day work living in inboxes, manual checklists, and people's heads",
+    "service_area": "Denver, Boulder, Longmont, and surrounding areas"
+  },
+  "process_steps": {
+    "1_diagnose": "Dig into current workflow, friction points, document flow, inbox load, and handoff gaps",
+    "2_design": "Recommend the highest-value fix, confirm scope, and shape the plan around how the firm already operates",
+    "3_build_support": "Implement the solution, hand it off cleanly, and support the team for 2 weeks so it sticks"
+  },
+  "offer_options": {
+    "offer_a": {
+      "name": "Workflow Review + Action Plan",
+      "price_display": "DISCUSSED_ON_CALL",
+      "price_rule": "never mention $350 in cold outreach \u2014 price only if prospect asks",
+      "includes": [
+        "1-hour discovery call",
+        "current workflow review",
+        "3 practical improvement opportunities",
+        "short written action plan"
+      ]
+    },
+    "offer_b": {
+      "name": "Client Operations Starter Build",
+      "price_display": "DISCUSSED_ON_CALL",
+      "price_rule": "never mention $2,500 in cold outreach \u2014 price only if prospect asks",
+      "includes": [
+        "one core workflow improved",
+        "one automation or human-reviewed assisted process",
+        "SOP and video handoff",
+        "2 weeks of support"
+      ]
+    }
+  },
+  "typical_starter_workflows": [
+    "client onboarding",
+    "document intake",
+    "inbox triage",
+    "internal handoff",
+    "recurring reminders",
+    "weekly reporting",
+    "internal knowledge support"
+  ],
+  "subject_line_templates": {
+    "A_tier_named": [
+      "workflow improvement for your Denver accounting firm",
+      "question about your firm's workflow operations",
+      "accounting firm workflow review \u2014 Denver"
+    ],
+    "C_tier_generic": [
+      "Denver accounting firm workflow improvement opportunity",
+      "CPA firm operations review \u2014 Denver",
+      "accounting practice workflow fit call"
+    ]
+  },
+  "body_language_rules": {
+    "no_pricing": true,
+    "no_product_or_brand_names": true,
+    "no_brand_references": true,
+    "no_artist_creator_gallery_terms": true,
+    "no_personal_familiarity_unless_named": true,
+    "company_level_observation_tone": "professional, peer-level, no hype",
+    "named_person_tone": "professional, concise, peer-level",
+    "footer_context": "founder-led implementation partner for cleaner operations and human-reviewed workflow systems"
+  },
+  "cta_language": {
+    "primary_cta": "reply to schedule a free 10-minute workflow fit call",
+    "call_recipient": "reply to the email to schedule with the co-founder",
+    "barrier_removal": "no cost, no commitment \u2014 exploratory call only"
+  },
+  "approved_verticals": [
+    "accounting_bookkeeping"
+  ],
+  "created_at": "2026-04-11T03:15:00+00:00",
+  "author": "human_operator_from_uploaded_one_pager",
+  "review_required": true,
+  "one_pager_asset_path": "/home/cortana/.hermes/image_cache/accounting_bookkeeping_one_pager.jpg",
+  "one_pager_mode": "inline",
+  "compliance_disclaimer": "This outreach is from Herman Carter with USP LLC and does not constitute legal advice or a guarantee of legal outcomes."
+}

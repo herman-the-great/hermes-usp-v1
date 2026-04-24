@@ -1,0 +1,307 @@
+[
+  {
+    "id": 44,
+    "name": "Wills & Wellness Estate Planning",
+    "website": "https://willsandwellness.com/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [],
+    "html_length": 148141,
+    "homepage_success": true
+  },
+  {
+    "id": 45,
+    "name": "Law Office of Lyndsey Richard",
+    "website": "http://www.lyndseyrichard.com/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [],
+    "html_length": 163621,
+    "homepage_success": true
+  },
+  {
+    "id": 46,
+    "name": "Suzanna Wasito Tiftickjian, LLC",
+    "website": "http://www.estateplanninglawyerdenver.com/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [
+      "suzie@denverlegacylaw.com"
+    ],
+    "html_length": 357770,
+    "homepage_success": true
+  },
+  {
+    "id": 47,
+    "name": "Legacy Law Group Colorado",
+    "website": "https://legacylawgroupcolorado.com/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [
+      "info@legacylawgroupcolorado.com"
+    ],
+    "html_length": 161050,
+    "homepage_success": true
+  },
+  {
+    "id": 48,
+    "name": "Mitchell & Faix",
+    "website": "https://mitchellfaix.com/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [],
+    "html_length": 202899,
+    "homepage_success": true
+  },
+  {
+    "id": 49,
+    "name": "Gendelman Klimas Edwards Ltd.",
+    "website": "https://gendelmanklimas.com/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [
+      "info@gendelmanklimas.com"
+    ],
+    "html_length": 183624,
+    "homepage_success": true
+  },
+  {
+    "id": 50,
+    "name": "Life & Legacy Planning, Ltd.",
+    "website": "https://lifeandlegacyltd.com/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [
+      "info@lifeandlegacyltd.com"
+    ],
+    "html_length": 181900,
+    "homepage_success": true
+  },
+  {
+    "id": 51,
+    "name": "Urban Law",
+    "website": "http://davidurbanlaw.com/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [
+      "5-urban_law_logo2@0.5x.png",
+      "david@davidurbanlaw.com"
+    ],
+    "html_length": 37328,
+    "homepage_success": true
+  },
+  {
+    "id": 52,
+    "name": "Ragab Law Firm, P.C.",
+    "website": "https://ragablawfirm.com/?utm_source=google&utm_medium=gbp&utm_campaign=denver",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [],
+    "html_length": 1171978,
+    "homepage_success": true
+  },
+  {
+    "id": 53,
+    "name": "Osterman Law Firm",
+    "website": "https://www.ostermanlaw.com/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [
+      "info@ostermanlaw.com"
+    ],
+    "html_length": 163883,
+    "homepage_success": true
+  },
+  {
+    "id": 54,
+    "name": "Flatiron Legal Advisors, PLLC",
+    "website": "http://flatironlegal.com/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [],
+    "html_length": 137683,
+    "homepage_success": true
+  },
+  {
+    "id": 55,
+    "name": "Robinson & Henry P.C.",
+    "website": "https://www.robinsonandhenry.com/locations/denver/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [],
+    "html_length": 3232531,
+    "homepage_success": true
+  },
+  {
+    "id": 56,
+    "name": "Chayet & Danzo, LLC",
+    "website": "https://www.coloradoelderlaw.com/?npcmp=dir:local:3405342:80246",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [],
+    "html_length": 226789,
+    "homepage_success": true
+  },
+  {
+    "id": 57,
+    "name": "Blake Harris Law",
+    "website": "https://blakeharrislaw.com/?utm_source=google&utm_medium=organic&utm_campaign=business",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [],
+    "html_length": 212054,
+    "homepage_success": true
+  },
+  {
+    "id": 58,
+    "name": "The Hughes Law Firm",
+    "website": "https://www.thehugheslawfirm.net/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [],
+    "html_length": 101071,
+    "homepage_success": true
+  },
+  {
+    "id": 59,
+    "name": "Elevate Estate Planning, LLC",
+    "website": "http://www.elevateestateplanning.net/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [
+      "info@elevateestateplanning.net"
+    ],
+    "html_length": 35658,
+    "homepage_success": true
+  },
+  {
+    "id": 60,
+    "name": "The Law Office of Keenan Copple PC",
+    "website": "https://www.kcopplelaw.com/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [
+      "hello@designbuildweb.co"
+    ],
+    "html_length": 94573,
+    "homepage_success": true
+  },
+  {
+    "id": 61,
+    "name": "Colorado Wills and Estates",
+    "website": "https://coloradowillsandestates.com/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [
+      "info@coloradowillsandestates.com"
+    ],
+    "html_length": 106453,
+    "homepage_success": true
+  },
+  {
+    "id": 62,
+    "name": "Gantenbein Law Firm",
+    "website": "https://www.gantenbeinlaw.com/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [
+      "theglawfirm@gmail.com",
+      "c183baa23371454f99f417f6616b724d@sentry.wixpress.com",
+      "8c4075d5481d476e945486754f783364@sentry.io",
+      "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+      "info@gantenbeinlaw.com",
+      "dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com",
+      "2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com",
+      "8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+    ],
+    "html_length": 867289,
+    "homepage_success": true
+  },
+  {
+    "id": 63,
+    "name": "Law Office of Michelle Adams / Colorado Family Legacy",
+    "website": "http://coloradofamilylegacy.com/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [
+      "hello@coloradofamilylegacy.com",
+      "madams@xps.d78.myftpupload.com"
+    ],
+    "html_length": 126960,
+    "homepage_success": true
+  },
+  {
+    "id": 64,
+    "name": "Evans Case - Denver Probate Lawyer",
+    "website": "https://www.evanscase.com/estate-planning/?utm_source=GBP&utm_medium=organic",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [],
+    "html_length": 79952,
+    "homepage_success": true
+  },
+  {
+    "id": 65,
+    "name": "Sarah Morris Law, LLC",
+    "website": "http://www.sarahmorrislaw.com/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [],
+    "html_length": 87061,
+    "homepage_success": true
+  },
+  {
+    "id": 66,
+    "name": "Althaus Law",
+    "website": "https://www.althauslaw.com/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [],
+    "html_length": 157034,
+    "homepage_success": true
+  },
+  {
+    "id": 67,
+    "name": "Paul Miller Law Office",
+    "website": "https://pmillerlawoffice.com/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [
+      "paul@pmillerlawoffice.com"
+    ],
+    "html_length": 60417,
+    "homepage_success": true
+  },
+  {
+    "id": 68,
+    "name": "Geraghty Law Office",
+    "website": "https://www.geraghtylawoffice.com/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [
+      "user@domain.com"
+    ],
+    "html_length": 227128,
+    "homepage_success": true
+  },
+  {
+    "id": 69,
+    "name": "Oath - Denver Estate Planning & Investment Attorneys",
+    "website": "http://www.oath.law/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [],
+    "html_length": 120632,
+    "homepage_success": true
+  },
+  {
+    "id": 70,
+    "name": "Colorado Estate Planning Law Center",
+    "website": "https://www.coloradoestateplanning.com/",
+    "has_staff": true,
+    "has_contact": true,
+    "emails": [],
+    "html_length": 83768,
+    "homepage_success": true
+  }
+]

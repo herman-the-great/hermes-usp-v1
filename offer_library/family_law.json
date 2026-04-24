@@ -1,0 +1,104 @@
+{
+  "_comment": "USP-only approved offer language for family_law vertical. Built from uploaded one-pager (Ugly Sweater Party LLC). No external business context (MyPalette, MetaSill, artist, creator, gallery) authorized without cross_vertical_approval.json bridge.",
+  "_source_file": "uploaded_one_pager_family_law_2026-04-11",
+  "vertical": "family_law",
+  "default_policy": "no_external_context",
+  "offer_framing": {
+    "opening_angle": "Denver-area workflow improvement firm reaching out to family law firms",
+    "positioning_statements": [
+      "cleaner intake, less admin, and safer workflow support for family law firms",
+      "practical human-reviewed workflow systems for family law practices",
+      "founder-led team reducing admin drag without crossing into legal judgment or drafting"
+    ],
+    "call_to_action": "brief call to discuss how workflow improvement could serve your firm",
+    "offer_context": "call to explore fit \u2014 no cost, no commitment"
+  },
+  "pain_point_mapping": {
+    "consult_scheduling": "consult scheduling, intake follow-up, and missing paperwork reminders taking too much manual effort",
+    "document_collection": "document collection, inbox management, and internal handoffs creating friction across the team",
+    "admin_dependency": "too much administrative workflow depending on inboxes, staff memory, and repeated manual coordination",
+    "intake_friction": "reduce intake friction, tighten document collection, support day-to-day administrative workflow"
+  },
+  "target_client_profile": {
+    "firm_type": "family law firms",
+    "firm_characteristics": "dedicated teams, growing client volume, too much time tied up in consult scheduling, sensitive intake handling, document collection, inbox management, and repeated manual follow-up",
+    "service_area": "Denver, Boulder, Longmont, and surrounding areas"
+  },
+  "process_steps": {
+    "1_diagnose": "Discovery call plus focused review of current workflow, intake friction, document flow, and handoff gaps",
+    "2_design": "Recommend the highest-value fix, confirm scope, and adjust the plan based on client feedback",
+    "3_build_harden": "Implement the solution, hand it off cleanly, and support the team for 2 weeks so it sticks"
+  },
+  "offer_options": {
+    "offer_a": {
+      "name": "Intake + Workflow Review",
+      "price_display": "DISCUSSED_ON_CALL",
+      "price_rule": "never mention $350 in cold outreach \u2014 price only if prospect asks",
+      "includes": [
+        "1-hour discovery call",
+        "current workflow review",
+        "3 improvement opportunities",
+        "short written action plan",
+        "50% credit toward a build"
+      ]
+    },
+    "offer_b": {
+      "name": "Done-for-You Automation Starter",
+      "price_display": "DISCUSSED_ON_CALL",
+      "price_rule": "never mention $2,500 in cold outreach \u2014 price only if prospect asks",
+      "includes": [
+        "one core workflow improved",
+        "one automation or human-reviewed assisted process",
+        "SOP and video handoff",
+        "2 weeks of support",
+        "focused scope for fast rollout"
+      ]
+    }
+  },
+  "typical_starter_workflows": [
+    "consult follow-up",
+    "intake coordination",
+    "document collection",
+    "missing paperwork reminders",
+    "inbox triage",
+    "internal handoff",
+    "daily or weekly reporting"
+  ],
+  "subject_line_templates": {
+    "A_tier_named": [
+      "workflow improvement for your Denver family law firm",
+      "question about your firm's intake and admin workflow",
+      "family law firm workflow review \u2014 Denver"
+    ],
+    "C_tier_generic": [
+      "Denver family law firm workflow improvement opportunity",
+      "family law firm intake workflow review \u2014 Denver",
+      "law firm workflow fit call \u2014 Denver"
+    ]
+  },
+  "body_language_rules": {
+    "no_pricing": true,
+    "no_product_or_brand_names": true,
+    "no_brand_references": true,
+    "no_artist_creator_gallery_terms": true,
+    "no_personal_familiarity_unless_named": true,
+    "company_level_observation_tone": "professional, peer-level, no hype",
+    "named_person_tone": "professional, concise, peer-level",
+    "footer_context": "founder-led implementation partner for administrative workflow support, human-reviewed systems, and operational cleanup"
+  },
+  "cta_language": {
+    "primary_cta": "reply to book a free 10-minute discovery call",
+    "call_recipient": "reply to the email to schedule with the co-founder",
+    "barrier_removal": "no cost, no commitment \u2014 exploratory call only",
+    "fee_credit_note": "50% of discovery/audit fee applies toward a build"
+  },
+  "compliance_disclaimer": "administrative workflow support only; not legal advice, legal drafting, or compliance guarantees. Results vary by firm and implementation scope.",
+  "why_us_nuance": "practical administrative workflow support, careful rollout, and human-reviewed implementation \u2014 firms can reduce admin drag without crossing into legal judgment, drafting, or risky black-box automation",
+  "approved_verticals": [
+    "family_law"
+  ],
+  "created_at": "2026-04-11T03:35:00+00:00",
+  "author": "human_operator_from_uploaded_one_pager",
+  "review_required": true,
+  "one_pager_asset_path": "/home/cortana/.hermes/image_cache/family_law_one_pager.jpg"
+}

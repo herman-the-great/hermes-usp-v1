@@ -1,0 +1,27 @@
+{
+  "_comment": "Content isolation policy for Hermes-USP-v1. Default=BLOCK. No external business context may cross into USP draft generation without explicit human-approved bridge.",
+  "default_policy": "BLOCK",
+  "approved_bridges": [],
+  "active_vertical": "accounting_bookkeeping",
+  "cross_context_blocked": true,
+  "block_log": [
+    {
+      "blocked_at": "2026-04-11T02:50:00+00:00",
+      "reason": "no external context authorized without human approval"
+    }
+  ],
+  "engine_enforcement": {
+    "packet_generator": "MUST read from offer_library/ only",
+    "gmail_draft_engine": "MUST read from offer_library/ only",
+    "review_packet": "MUST NOT contain sender identity, brand names, or external context",
+    "enrichment": "read-only — no content generation"
+  },
+  "whitelist_read_paths": {
+    "packet_generator": [
+      "offer_library/accounting_bookkeeping.json"
+    ],
+    "gmail_draft_engine": [
+      "offer_library/accounting_bookkeeping.json"
+    ]
+  }
+}

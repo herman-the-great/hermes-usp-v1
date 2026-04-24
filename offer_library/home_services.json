@@ -1,0 +1,110 @@
+{
+  "_comment": "USP-only approved offer language for home_services vertical. Built from uploaded one-pager (Ugly Sweater Party LLC). No external business context (MyPalette, MetaSill, artist, creator, gallery) authorized without cross_vertical_approval.json bridge.",
+  "_source_file": "uploaded_one_pager_home_services_2026-04-11",
+  "vertical": "home_services",
+  "default_policy": "no_external_context",
+  "offer_framing": {
+    "opening_angle": "Denver-area workflow improvement firm reaching out to home service companies",
+    "positioning_statements": [
+      "faster follow-up and cleaner operations for growing home service companies",
+      "practical human-reviewed workflow systems that fit the way the business already runs",
+      "owner-led team helping roofers, HVAC, and plumbing teams move faster without giant rebuilds"
+    ],
+    "call_to_action": "brief call to discuss how workflow improvement could serve your team",
+    "offer_context": "call to explore fit \u2014 no cost, no commitment"
+  },
+  "pain_point_mapping": {
+    "slow_follow_up": "new leads come in but follow-up is slow or inconsistent",
+    "slipping_through_cracks": "estimate requests, appointments, and handoffs slip through the cracks",
+    "manual_re_entry": "staff losing time re-entering information, chasing updates, and managing inbox clutter",
+    "office_chaos": "missed follow-ups, admin bottlenecks, and messy office-to-field handoffs"
+  },
+  "target_client_profile": {
+    "firm_type": "owner-led and lean home service teams",
+    "firm_types_list": [
+      "roofers",
+      "HVAC companies",
+      "plumbing teams"
+    ],
+    "firm_characteristics": "enough incoming calls, estimate requests, and scheduling activity to feel the strain of missed follow-up, admin bottlenecks, and messy office-to-field handoffs",
+    "service_area": "Denver, Boulder, Longmont, and surrounding areas"
+  },
+  "process_steps": {
+    "1_diagnose": "Review current workflow, friction points, and where follow-up or handoff is breaking down",
+    "2_design": "Recommend the highest-value fix, confirm scope, and shape the plan around how the team actually works",
+    "3_build_support": "Implement the solution, hand it off cleanly, and support the team for 2 weeks so it sticks"
+  },
+  "offer_options": {
+    "offer_a": {
+      "name": "Home Service Workflow Audit",
+      "price_display": "DISCUSSED_ON_CALL",
+      "price_rule": "never mention $350 in cold outreach \u2014 price only if prospect asks",
+      "includes": [
+        "1-hour discovery call",
+        "review of current workflow and handoff gaps",
+        "3 practical improvement opportunities",
+        "short written action plan",
+        "50% credit toward a build"
+      ]
+    },
+    "offer_b": {
+      "name": "Follow-Up + Admin Starter Build",
+      "price_display": "DISCUSSED_ON_CALL",
+      "price_rule": "never mention $2,500 in cold outreach \u2014 price only if prospect asks",
+      "includes": [
+        "one core workflow improved",
+        "one automation or AI-assisted process",
+        "SOP and video handoff",
+        "2 weeks of support",
+        "focused scope for fast rollout"
+      ]
+    }
+  },
+  "typical_starter_workflows": [
+    "lead follow-up",
+    "estimate request routing",
+    "appointment reminders",
+    "office-to-field handoff",
+    "intake",
+    "email triage",
+    "daily reporting"
+  ],
+  "subject_line_templates": {
+    "A_tier_named": [
+      "workflow improvement for your Denver home service team",
+      "question about your team's follow-up and operations process",
+      "home service workflow review \u2014 Denver"
+    ],
+    "C_tier_generic": [
+      "Denver home service company workflow improvement opportunity",
+      "HVAC, roofing, plumbing workflow review \u2014 Denver",
+      "home service workflow fit call \u2014 Denver"
+    ]
+  },
+  "body_language_rules": {
+    "no_pricing": true,
+    "no_product_or_brand_names": true,
+    "no_brand_references": true,
+    "no_artist_creator_gallery_terms": true,
+    "no_personal_familiarity_unless_named": true,
+    "company_level_observation_tone": "professional, peer-level, no hype",
+    "named_person_tone": "professional, concise, peer-level",
+    "footer_context": "founder-led implementation partner for faster follow-up, cleaner handoffs, and less manual admin in home service businesses"
+  },
+  "cta_language": {
+    "primary_cta": "reply to book a free 10-minute discovery call",
+    "call_recipient": "reply to the email to schedule with the co-founder",
+    "barrier_removal": "no cost, no commitment \u2014 exploratory call only",
+    "fee_credit_note": "50% of discovery/audit fee applies toward a build"
+  },
+  "why_us_nuance": "practical workflow fixes with human review built in \u2014 office and field team can move faster without a giant custom rebuild",
+  "approved_verticals": [
+    "home_services"
+  ],
+  "created_at": "2026-04-11T03:55:00+00:00",
+  "author": "human_operator_from_uploaded_one_pager",
+  "review_required": true,
+  "compliance_disclaimer": "operational workflow support only; not financial, legal, mortgage, or licensed professional advice. Results vary by business and context.",
+  "one_pager_asset_path": "/home/cortana/.hermes/image_cache/home_services_one_pager.jpg",
+  "one_pager_mode": "inline"
+}

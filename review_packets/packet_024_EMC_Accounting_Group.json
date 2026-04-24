@@ -1,0 +1,117 @@
+{
+  "lead_id": 24,
+  "name": "EMC Accounting Group",
+  "quality": "C",
+  "path": "named_contact_indirect",
+  "contact_email": "emcwilliams@emcaccountinggroup.com",
+  "packet_eligible": true,
+  "sections": {
+    "1. Lead Summary": {
+      "lead_id": 24,
+      "name": "EMC Accounting Group",
+      "website": "https://www.emcaccountinggroup.com/",
+      "rating": "5/5",
+      "reviews": 106,
+      "business_type": "accounting services",
+      "contact_path": "named_contact_indirect",
+      "contact_quality": "C",
+      "primary_email": "emcwilliams@emcaccountinggroup.com",
+      "contact_label": "generic inbox \u2014 staff page confirmed in enrichment evidence",
+      "phone_numbers": [
+        "(494) 368-2994",
+        "(309) 908-9674",
+        "+1 (775) 677-8256"
+      ],
+      "send_readiness": "ready"
+    },
+    "2. Business Profile": {
+      "website": "https://www.emcaccountinggroup.com/",
+      "primary_services": [
+        "accounting services"
+      ],
+      "client_vertical": "B2B businesses in Denver metro",
+      "operational_status": "OPERATIONAL",
+      "size_indicators": "106 Google reviews, rating 5/5",
+      "digital_presence": "active website with contact infrastructure"
+    },
+    "3. Trigger Events & Pain Points": {
+      "confirmed_triggers": [
+        "Established practice: 106 Google reviews (rating 5)"
+      ],
+      "inferred_pain_points": [
+        "competitive Denver accounting market making new client acquisition expensive",
+        "reliance on word-of-mouth limiting practice growth velocity"
+      ],
+      "vertical_context": "accounting_bookkeeping \u2014 regular client touchpoints, referral-driven growth"
+    },
+    "4. Contact Path & Confidence": {
+      "contact_path": "named_contact_indirect",
+      "contact_quality": "C",
+      "email_used": "emcwilliams@emcaccountinggroup.com",
+      "email_label": "generic inbox \u2014 staff page confirmed in enrichment evidence",
+      "staff_page_confirmed": true,
+      "contact_page_confirmed": true,
+      "named_person_detected": "Website Builder",
+      "named_role_detected": "accountant",
+      "other_emails_in_enrichment": [],
+      "confidence_note": "company-level framing only \u2014 no first-name personalization"
+    },
+    "5. Vertical & Angle Selection": {
+      "assigned_vertical": "accounting_bookkeeping",
+      "angle_type": "company_level",
+      "positioning_statement": "accounting services practice in growth phase seeking collaborative referral partners",
+      "call_to_action": "brief call to discuss referral partnership fit",
+      "offer_context": "referral partnership discussion \u2014 no cost, no commitment",
+      "personalization_appropriate": false,
+      "company_level_only": true,
+      "recommended_tone": "professional, peer-level, no hype",
+      "no_external_context": true
+    },
+    "6. Email Sequence Overview": {
+      "sequence_length": "3-email sequence",
+      "email_1": {
+        "subject_options": [
+          "Denver accounting firm referral opportunity",
+          "CPA firm referral partnerships in Denver",
+          "Accounting practice referral network inquiry"
+        ],
+        "angle": "company_level",
+        "body_focus": "accounting services practice in growth phase seeking collaborative referral partners \u2014 brief call to discuss referral partnership fit",
+        "personalization_note": "company-level framing only \u2014 no first-name personalization"
+      },
+      "email_2": "follow-up referencing referral partnership framework, 3-5 days after email 1",
+      "email_3": "breakup email referencing Denver accounting community, 7-10 days after email 2"
+    },
+    "7. Attachment Recommendation": {
+      "attach_to_email": 2,
+      "attachment": "referral partnership one-pager",
+      "format": "PDF",
+      "note": "Do not attach to email 1 \u2014 establish context first"
+    },
+    "8. Compliance & Suppression Check": {
+      "suppression_status": "CLEAR \u2014 no suppression flags on this lead",
+      "vertical_compliance": "accounting_bookkeeping is not on USP prohibited verticals list",
+      "offer_library_verified": true,
+      "no_external_context_in_packet": true,
+      "no_pricing_in_email_1": true
+    },
+    "9. Internal Notes": {
+      "packet_generated_at": "2026-04-11T03:03:30.266552+00:00",
+      "enrichment_success": true,
+      "has_staff_page": true,
+      "has_contact_page": true,
+      "offer_library_path": "offer_library/accounting_bookkeeping.json",
+      "cross_vertical_policy": "BLOCK \u2014 no external context authorized",
+      "packet_tier_note": "C-tier: emcwilliams@emcaccountinggroup.com \u2014 company-level framing REQUIRED"
+    },
+    "10. Approval Action": {
+      "status": "pending_human_review",
+      "action_required": "approve | revise | hold",
+      "packet_eligible": true,
+      "ready_for_draft": false,
+      "gmail_draft_blocked_until_approved": true
+    }
+  },
+  "generated_at": "2026-04-11T03:03:30.266558+00:00",
+  "isolation_verified": true
+}

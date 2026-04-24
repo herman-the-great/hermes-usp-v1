@@ -1,0 +1,119 @@
+{
+  "lead_id": 22,
+  "name": "Dickmann Tax Group",
+  "quality": "A",
+  "path": "named_contact_direct",
+  "contact_email": "kyle.dickmann@dickmanntaxgroup.com",
+  "packet_eligible": true,
+  "sections": {
+    "1. Lead Summary": {
+      "lead_id": 22,
+      "name": "Dickmann Tax Group",
+      "website": "https://dickmanntaxgroup.com/",
+      "rating": "5/5",
+      "reviews": 111,
+      "business_type": "tax services firm",
+      "contact_path": "named_contact_direct",
+      "contact_quality": "A",
+      "primary_email": "kyle.dickmann@dickmanntaxgroup.com",
+      "contact_label": "named person email confirmed in enrichment evidence",
+      "phone_numbers": [
+        "(177) 455-8231",
+        "(230) 000-0000",
+        "(647) 058-8235"
+      ],
+      "send_readiness": "ready"
+    },
+    "2. Business Profile": {
+      "website": "https://dickmanntaxgroup.com/",
+      "primary_services": [
+        "tax services firm"
+      ],
+      "client_vertical": "B2B businesses in Denver metro",
+      "operational_status": "OPERATIONAL",
+      "size_indicators": "111 Google reviews, rating 5/5",
+      "digital_presence": "active website with contact infrastructure"
+    },
+    "3. Trigger Events & Pain Points": {
+      "confirmed_triggers": [
+        "Established practice: 111 Google reviews (rating 5)",
+        "Tax services \u2014 seasonal engagement cycle with off-season gaps"
+      ],
+      "inferred_pain_points": [
+        "off-season client engagement gap between tax quarters",
+        "competitive Denver accounting market making new client acquisition expensive",
+        "reliance on word-of-mouth limiting practice growth velocity"
+      ],
+      "vertical_context": "accounting_bookkeeping \u2014 regular client touchpoints, referral-driven growth"
+    },
+    "4. Contact Path & Confidence": {
+      "contact_path": "named_contact_direct",
+      "contact_quality": "A",
+      "email_used": "kyle.dickmann@dickmanntaxgroup.com",
+      "email_label": "named person email confirmed in enrichment evidence",
+      "staff_page_confirmed": true,
+      "contact_page_confirmed": true,
+      "named_person_detected": "none",
+      "named_role_detected": "none",
+      "other_emails_in_enrichment": [],
+      "confidence_note": "first-name personalization appropriate \u2014 named person email confirmed"
+    },
+    "5. Vertical & Angle Selection": {
+      "assigned_vertical": "accounting_bookkeeping",
+      "angle_type": "named_person_email",
+      "positioning_statement": "Denver-area accounting firm exploring off-season client engagement strategies",
+      "call_to_action": "brief call to discuss referral partnership fit",
+      "offer_context": "referral partnership discussion \u2014 no cost, no commitment",
+      "personalization_appropriate": true,
+      "company_level_only": false,
+      "recommended_tone": "professional, concise, peer-level",
+      "no_external_context": true
+    },
+    "6. Email Sequence Overview": {
+      "sequence_length": "3-email sequence",
+      "email_1": {
+        "subject_options": [
+          "Denver accounting referral opportunity",
+          "Question about your Denver accounting practice",
+          "CPA referral partnership \u2014 Denver"
+        ],
+        "angle": "named_person_email",
+        "body_focus": "Denver-area accounting firm exploring off-season client engagement strategies \u2014 brief call to discuss referral partnership fit",
+        "personalization_note": "first-name personalization appropriate \u2014 named person email confirmed"
+      },
+      "email_2": "follow-up referencing referral partnership framework, 3-5 days after email 1",
+      "email_3": "breakup email referencing Denver accounting community, 7-10 days after email 2"
+    },
+    "7. Attachment Recommendation": {
+      "attach_to_email": 2,
+      "attachment": "referral partnership one-pager",
+      "format": "PDF",
+      "note": "Do not attach to email 1 \u2014 establish context first"
+    },
+    "8. Compliance & Suppression Check": {
+      "suppression_status": "CLEAR \u2014 no suppression flags on this lead",
+      "vertical_compliance": "accounting_bookkeeping is not on USP prohibited verticals list",
+      "offer_library_verified": true,
+      "no_external_context_in_packet": true,
+      "no_pricing_in_email_1": true
+    },
+    "9. Internal Notes": {
+      "packet_generated_at": "2026-04-11T03:03:30.262546+00:00",
+      "enrichment_success": true,
+      "has_staff_page": true,
+      "has_contact_page": true,
+      "offer_library_path": "offer_library/accounting_bookkeeping.json",
+      "cross_vertical_policy": "BLOCK \u2014 no external context authorized",
+      "packet_tier_note": "A-tier: kyle.dickmann@dickmanntaxgroup.com \u2014 first-name personalization APPROVED"
+    },
+    "10. Approval Action": {
+      "status": "pending_human_review",
+      "action_required": "approve | revise | hold",
+      "packet_eligible": true,
+      "ready_for_draft": false,
+      "gmail_draft_blocked_until_approved": true
+    }
+  },
+  "generated_at": "2026-04-11T03:03:30.262571+00:00",
+  "isolation_verified": true
+}

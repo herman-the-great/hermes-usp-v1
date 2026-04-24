@@ -1,0 +1,36 @@
+{
+  "description": "Phase 0 golden smoke test cases for Hermes-USP-v1",
+  "test_cases": [
+    {
+      "test_id": "lead_1_suppression_check",
+      "lead_id": 1,
+      "lead_name": "Tag Team Design",
+      "expected": {
+        "send_readiness": "not suppressed",
+        "suppression_flag": "none"
+      },
+      "validation": "lead should NOT be suppressed; smoke test passes if suppression_flag not in (wrong_fit, do_not_contact, suppressed)"
+    },
+    {
+      "test_id": "lead_4_suppression",
+      "lead_id": 4,
+      "lead_name": "Anchovies",
+      "expected": {
+        "send_readiness": "suppressed",
+        "suppression_flag": "wrong_fit"
+      },
+      "validation": "lead SHOULD be suppressed; smoke test passes if suppression_flag in (wrong_fit, do_not_contact) OR send_readiness == suppressed"
+    },
+    {
+      "test_id": "lead_3_gate_4_fail",
+      "lead_id": 3,
+      "lead_name": "PRYDE",
+      "expected": {
+        "contact_email": "none or empty",
+        "gate_4_result": "FAIL",
+        "reason": "phone-only lead"
+      },
+      "validation": "lead should fail gate 4 (no email); smoke test passes if contact_email is empty/missing"
+    }
+  ]
+}

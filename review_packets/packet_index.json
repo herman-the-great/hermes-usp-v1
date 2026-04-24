@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-04-11T03:03:30.283403+00:00",
+  "total_packets": 11,
+  "isolation_verified": true,
+  "offer_library": "offer_library/accounting_bookkeeping.json",
+  "cross_vertical_policy": "BLOCK",
+  "packets": [
+    {
+      "id": 22,
+      "name": "Dickmann Tax Group",
+      "quality": "A"
+    },
+    {
+      "id": 23,
+      "name": "Colorado Business CPA, LLC",
+      "quality": "C"
+    },
+    {
+      "id": 24,
+      "name": "EMC Accounting Group",
+      "quality": "C"
+    },
+    {
+      "id": 27,
+      "name": "Sound Advice Bookkeeping",
+      "quality": "C"
+    },
+    {
+      "id": 28,
+      "name": "Gheen & Co., CPA, LLC",
+      "quality": "C"
+    },
+    {
+      "id": 31,
+      "name": "Lanphier LLP",
+      "quality": "C"
+    },
+    {
+      "id": 32,
+      "name": "DK/RK Services, LLC",
+      "quality": "C"
+    },
+    {
+      "id": 35,
+      "name": "Nelson & Company",
+      "quality": "A"
+    },
+    {
+      "id": 37,
+      "name": "Colorado Business Accountants",
+      "quality": "A"
+    },
+    {
+      "id": 41,
+      "name": "Amber\u2019s Accounting & Bookkeeping LLC",
+      "quality": "A"
+    },
+    {
+      "id": 42,
+      "name": "OneBooks Colorado, LLC",
+      "quality": "A"
+    }
+  ]
+}

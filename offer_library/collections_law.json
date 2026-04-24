@@ -1,0 +1,103 @@
+{
+  "_comment": "USP-only approved offer language for collections_law vertical. Built from uploaded one-pager (Ugly Sweater Party LLC). No external business context (MyPalette, MetaSill, artist, creator, gallery) authorized without cross_vertical_approval.json bridge.",
+  "_source_file": "uploaded_one_pager_collections_law_2026-04-11",
+  "vertical": "collections_law",
+  "default_policy": "no_external_context",
+  "offer_framing": {
+    "opening_angle": "Denver-area workflow improvement firm reaching out to collections law firms",
+    "positioning_statements": [
+      "human-reviewed workflow systems for collections law firms",
+      "practical workflow support to reduce manual operational work",
+      "founder-led team focused on controlled operational workflow improvement"
+    ],
+    "call_to_action": "brief call to discuss how operational workflow improvement could serve your firm",
+    "offer_context": "call to explore fit \u2014 no cost, no commitment"
+  },
+  "pain_point_mapping": {
+    "intake_routing": "intake handling, case routing, and document movement requiring too much manual effort",
+    "email_friction": "email triage, internal handoffs, and recurring reminders creating team friction",
+    "memory_dependency": "too much operational workflow living in inboxes, staff memory, and repeated admin follow-up",
+    "reporting_gaps": "cleaner intake handling, smoother case routing, and better reporting flow needed"
+  },
+  "target_client_profile": {
+    "firm_type": "collections law firms",
+    "firm_characteristics": "dedicated teams needing cleaner intake handling, smoother case routing, better reporting flow, and less day-to-day workflow depending on inboxes, memory, and repeated manual coordination",
+    "service_area": "Denver, Boulder, Longmont, and surrounding areas"
+  },
+  "process_steps": {
+    "1_diagnose": "Discovery call plus focused review of current workflow, intake points, reporting flow, and handoff gaps",
+    "2_design": "Recommend the highest-value fix, confirm scope, and adjust the plan based on client feedback",
+    "3_build_harden": "Implement the solution, hand it off cleanly, and support the team for 2 weeks so it sticks"
+  },
+  "offer_options": {
+    "offer_a": {
+      "name": "Operational Workflow Review",
+      "price_display": "DISCUSSED_ON_CALL",
+      "price_rule": "never mention $350 in cold outreach \u2014 price only if prospect asks",
+      "includes": [
+        "1-hour discovery call",
+        "current workflow review",
+        "3 improvement opportunities",
+        "short written action plan",
+        "50% credit toward a build"
+      ]
+    },
+    "offer_b": {
+      "name": "Done-for-You Automation Starter",
+      "price_display": "DISCUSSED_ON_CALL",
+      "price_rule": "never mention $2,500 in cold outreach \u2014 price only if prospect asks",
+      "includes": [
+        "one core workflow improved",
+        "one automation or human-reviewed assisted process",
+        "SOP and video handoff",
+        "2 weeks of support",
+        "focused scope for fast rollout"
+      ]
+    }
+  },
+  "typical_starter_workflows": [
+    "intake handling",
+    "case routing support",
+    "document movement",
+    "email triage",
+    "internal handoff",
+    "recurring reminders",
+    "daily or weekly reporting"
+  ],
+  "subject_line_templates": {
+    "A_tier_named": [
+      "workflow improvement for your Denver collections firm",
+      "question about your firm's operational workflow",
+      "collections law workflow review \u2014 Denver"
+    ],
+    "C_tier_generic": [
+      "Denver collections law firm workflow improvement opportunity",
+      "Collections law firm operational workflow review \u2014 Denver",
+      "law firm workflow fit call \u2014 Denver"
+    ]
+  },
+  "body_language_rules": {
+    "no_pricing": true,
+    "no_product_or_brand_names": true,
+    "no_brand_references": true,
+    "no_artist_creator_gallery_terms": true,
+    "no_personal_familiarity_unless_named": true,
+    "company_level_observation_tone": "professional, peer-level, no hype",
+    "named_person_tone": "professional, concise, peer-level",
+    "footer_context": "founder-led implementation partner for controlled workflow support, human-reviewed systems, and operational cleanup"
+  },
+  "cta_language": {
+    "primary_cta": "reply to book a free 10-minute discovery call",
+    "call_recipient": "reply to the email to schedule with the co-founder",
+    "barrier_removal": "no cost, no commitment \u2014 exploratory call only",
+    "fee_credit_note": "50% of discovery/audit fee applies toward a build"
+  },
+  "compliance_disclaimer": "administrative workflow support only; not legal advice, FDCPA or compliance guarantees, or autonomous client communication. Results vary by firm.",
+  "approved_verticals": [
+    "collections_law"
+  ],
+  "created_at": "2026-04-11T03:25:00+00:00",
+  "author": "human_operator_from_uploaded_one_pager",
+  "review_required": true,
+  "one_pager_asset_path": "/home/cortana/.hermes/image_cache/collections_law_one_pager.jpg"
+}
