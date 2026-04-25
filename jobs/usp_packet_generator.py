@@ -314,7 +314,7 @@ def run(vertical=None, verbose=True):
             except ImportError:
                 # Fallback inline check if import fails
                 existing = conn.execute(
-                    "SELECT id FROM outreach_threads WHERE lead_id=? AND vertical=? AND thread_state NOT IN ('closed','rejected','bounced') LIMIT 1",
+                    "SELECT id FROM outreach_threads WHERE lead_id=? AND vertical=? AND thread_state NOT IN ('rejected','bounced') LIMIT 1",
                     (lead['id'], v)
                 ).fetchone()
                 has_thread = existing is not None

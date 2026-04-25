@@ -35,26 +35,8 @@ VERTICALS = {
         ],
         "offer": "Free workflow audit\n+ 30-day follow-up",
     },
-    "home_services": {
-        "name": "Home Services",
-        "accent": "#2dd4bf",       # teal
-        "accent_rgb": (45, 212, 191),
-        "tagline": "Faster follow-up & cleaner operations\nfor growing home service companies",
-        "pain_header": "Common Friction Points",
-        "pains": [
-            ("Lead Follow-Up Lag", "New inquiries come in but fall through the cracks"),
-            ("Office-to-Field Gap", "Techs show up without full context from the office"),
-            ("Estimate Drift", "Quotes go out late or with missing information"),
-        ],
-        "process_header": "How We Work",
-        "process": [
-            "Map your current inquiry-to-job handoff flow",
-            "Identify where leads are slipping through",
-            "Build a simple system for dispatch and follow-up",
-            "Give you a tool your team will actually use",
-        ],
-        "offer": "Free operations review\n+ 30-day follow-up",
-    },
+    # home_services is EXCLUDED — one-pager is user-provided via upload
+    # and must never be overwritten by this auto-generator script.
     "estate_planning_probate": {
         "name": "Estate Planning & Probate",
         "accent": "#a78bfa",       # purple

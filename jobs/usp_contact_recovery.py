@@ -288,7 +288,7 @@ def recover_contact_for_lead(lead_id: int, force: bool = False) -> dict:
     }
 
 
-def recover_all_contactless(vertical: str = None, limit: int = 50) -> dict:
+def recover_all_contactless(vertical: str = None, limit: int = 150) -> dict:
     """
     Run contact recovery for leads in all live verticals that need it.
     Target: phone_only, generic_inbox, unresolved/uncontactable leads.
@@ -296,6 +296,9 @@ def recover_all_contactless(vertical: str = None, limit: int = 50) -> dict:
     Args:
         vertical: None = all live verticals, or specific vertical name
         limit: max leads to process per run (prevent runaway scraping)
+        Default 150: with ~340 total leads in queue, clears in 3 runs/day.
+        Run contact_recovery BEFORE enrichment so new phone_only leads get scraped
+        before they sit in the enrichment queue.
     """
     import sqlite3
     conn = sqlite3.connect(str(_DB_PATH))
@@ -303,13 +306,13 @@ def recover_all_contactless(vertical: str = None, limit: int = 50) -> dict:
 
     # Build query for leads that need contact recovery
     # NOT leads that already have named_person A or B
+    # NOTE: includes 'qualified' leads — many were enriched but have phone_only/no-email
+    # and need website re-scraping to find real contact paths. Also covers candidate/disqualified.
     query = """
         SELECT id, name, assigned_vertical, contact_quality, best_contact_path
         FROM leads
         WHERE outbound_state IN ('off_market', 'suppressed')
-          AND (qualification_state = 'candidate'
-               OR qualification_state = 'disqualified'
-               OR qualification_state IS NULL)
+          AND qualification_state IN ('qualified', 'candidate', 'disqualified', NULL)
           AND contact_quality IN ('B', 'C', 'D', 'uncontactable')
           AND best_contact_path IN ('phone_only', 'generic_inbox', 'unresolved')
     """
@@ -361,8 +364,8 @@ def main():
                         help="Specific vertical: home_services, accounting_bookkeeping, estate_planning_probate")
     parser.add_argument("--lead-id", type=int, default=None,
                         help="Single lead ID to recover")
-    parser.add_argument("--limit", type=int, default=50,
-                        help="Max leads to process (default 50)")
+    parser.add_argument("--limit", type=int, default=150,
+                        help="Max leads to process (default 150)")
     args = parser.parse_args()
 
     if args.lead_id:

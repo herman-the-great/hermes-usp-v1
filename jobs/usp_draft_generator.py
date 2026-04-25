@@ -154,7 +154,7 @@ def lead_has_active_thread(lead_id, vertical):
         SELECT id, thread_state, gmail_draft_id
         FROM outreach_threads
         WHERE lead_id = ? AND vertical = ?
-          AND thread_state NOT IN ('closed', 'rejected', 'bounced')
+          AND thread_state NOT IN ('rejected', 'bounced')
         LIMIT 1
     """, (lead_id, vertical)).fetchone()
     conn.close()
@@ -193,6 +193,21 @@ def verify_draft_integrity(thread_id, lead_id, vertical, contact_email):
     # If thread is not in a draft-owning state, skip verification
     if thread_state not in ("pending_approval", "active", "drafting"):
         return True, f"thread_in_{thread_state}_state"
+
+    # GUARD: If this thread already has a 'sent' event in outreach_events,
+    # the email was already sent. The draft_deleted_recovery watchdog must NOT
+    # reset sent threads — their lifecycle is now managed by the thread watcher
+    # (Phase 2 / 2.5), not the draft generator. Resetting them to 'drafting'
+    # would permanently trap them since Phase 1 only processes pending_approval.
+    _c = sqlite3.connect(DB)
+    _c.row_factory = sqlite3.Row
+    _sent = _c.execute("""
+        SELECT 1 FROM outreach_events
+        WHERE thread_id = ? AND event_type = 'sent' LIMIT 1
+    """, (thread_id,)).fetchone()
+    _c.close()
+    if _sent:
+        return True, "thread_already_sent"
 
     # Check if email changed — if so, old draft is unusable
     if current_email and contact_email and current_email != contact_email:
@@ -932,7 +947,7 @@ def get_drafting_leads(vertical=None):
             WHERE t.thread_state = 'drafting'
               AND t.gmail_draft_id IS NULL
               AND l.contact_email != 'phone_only'
-              AND l.outbound_state IN ('new', 'reply_received')
+              AND l.outbound_state IN ('new', 'reply_received', 'draft_queued')
               AND t.vertical = ?
             ORDER BY t.id
         """, (vertical,)).fetchall()
@@ -952,7 +967,7 @@ def get_drafting_leads(vertical=None):
             WHERE t.thread_state = 'drafting'
               AND t.gmail_draft_id IS NULL
               AND l.contact_email != 'phone_only'
-              AND l.outbound_state IN ('new', 'reply_received')
+              AND l.outbound_state IN ('new', 'reply_received', 'draft_queued')
             ORDER BY t.id
         """).fetchall()
 

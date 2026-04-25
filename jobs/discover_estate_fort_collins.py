@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-USP Phase 1 — Discovery: estate_planning_probate x Boulder, CO
-Scope: 5 queries, 20 results each, Boulder city center.
+USP Phase 1 — Discovery: estate_planning_probate x Fort Collins, CO
+Scope: 5 queries, 20 results each, Fort Collins area.
 Dedupe: against all existing place_ids in usp.db.
 
 Do not generate review packets. No Gmail drafts.
@@ -21,14 +21,14 @@ sys.path.insert(0, str(USP_ROOT))
 _DB_PATH = USP_ROOT / "usp.db"
 _CONFIG_PATH = USP_ROOT / "config.json"
 
-BOULDER_LOCATION = {"lat": 40.0150, "lng": -105.2705}
+FT_COLLINS_LOCATION = {"lat": 40.5853, "lng": -105.0844}
 
 _ESTATE_QUERIES = [
-    "estate planning attorney Boulder Colorado",
-    "probate attorney Boulder Colorado",
-    "trust attorney Boulder Colorado",
-    "wills and estate attorney Boulder Colorado",
-    "estate planning services Boulder Colorado",
+    "estate planning attorney Fort Collins Colorado",
+    "probate attorney Fort Collins Colorado",
+    "trust attorney Fort Collins Colorado",
+    "wills and estate attorney Fort Collins Colorado",
+    "estate planning services Fort Collins Colorado",
 ]
 
 
@@ -65,15 +65,15 @@ def _log(action, detail=None, result=None):
     conn = sqlite3.connect(str(_DB_PATH))
     conn.execute(
         "INSERT INTO audit_log (action, engine, detail, result, created_at) VALUES (?, ?, ?, ?, ?)",
-        (action, "discovery_estate_boulder", detail, result, _now_iso())
+        (action, "discovery_estate_fort_collins", detail, result, _now_iso())
     )
     conn.commit()
     conn.close()
 
 
-def run_discovery_estate_boulder(radius_meters=12000, dry_run=False):
+def run_discovery_estate_fort_collins(radius_meters=12000, dry_run=False):
     """
-    Discover estate_planning_probate leads in Boulder, CO area.
+    Discover estate_planning_probate leads in Fort Collins, CO area.
     Directly inserts into usp.db with assigned_vertical='estate_planning_probate'.
     """
     cfg = _load_config()
@@ -92,7 +92,7 @@ def run_discovery_estate_boulder(radius_meters=12000, dry_run=False):
         _log("discovery_query_start", detail=f"[estate_planning_probate] {query}")
 
         try:
-            raw = _places_search(query, BOULDER_LOCATION, radius_meters, api_key)
+            raw = _places_search(query, FT_COLLINS_LOCATION, radius_meters, api_key)
         except Exception as e:
             _log("discovery_query_error", detail=f"{query}: {e}")
             continue
@@ -104,7 +104,7 @@ def run_discovery_estate_boulder(radius_meters=12000, dry_run=False):
             """INSERT INTO discovery_places
                (query, location_lat, location_lng, radius_meters, raw_response, places_found, run_at)
                VALUES (?, ?, ?, ?, ?, ?, ?)""",
-            (query, BOULDER_LOCATION["lat"], BOULDER_LOCATION["lng"], radius_meters,
+            (query, FT_COLLINS_LOCATION["lat"], FT_COLLINS_LOCATION["lng"], radius_meters,
              json.dumps(raw), len(results), _now_iso())
         )
         conn.commit()
@@ -125,7 +125,6 @@ def run_discovery_estate_boulder(radius_meters=12000, dry_run=False):
             open_status = place.get("opening_hours", {}).get("open_now")
             photo_ref = (place.get("photos", [{}])[0].get("photo_reference", "") if place.get("photos") else "")
 
-            # Dedupe by place_id
             existing = conn.execute(
                 "SELECT id FROM leads WHERE notes LIKE ?",
                 (f"%{place_id}%",)
@@ -183,12 +182,12 @@ def run_discovery_estate_boulder(radius_meters=12000, dry_run=False):
 
 if __name__ == "__main__":
     import argparse
-    parser = argparse.ArgumentParser(description="USP Estate Planning Discovery — Boulder, CO")
+    parser = argparse.ArgumentParser(description="USP Estate Planning Discovery — Fort Collins, CO")
     parser.add_argument("--dry-run", action="store_true", help="Fetch but don't write to DB")
     args = parser.parse_args()
 
-    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting estate_planning_probate x Boulder discovery")
+    print(f"[{datetime.now(timezone.utc).isoformat()}] Starting estate_planning_probate x Fort Collins discovery")
     print(f"Queries: {_ESTATE_QUERIES}")
 
-    result = run_discovery_estate_boulder(radius_meters=12000, dry_run=args.dry_run)
+    result = run_discovery_estate_fort_collins(radius_meters=12000, dry_run=args.dry_run)
     print(json.dumps(result))

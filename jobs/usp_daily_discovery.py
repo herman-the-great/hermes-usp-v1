@@ -64,9 +64,13 @@ def main():
     run_script("discover_home_services_fort_collins.py")
     run_script("discover_home_services_loveland.py")
 
-    # Step 2: Discovery — estate_planning (5 queries, Boulder)
-    # Estate attorneys open practices regularly; needs fresh discovery
+    # Step 2: Discovery — estate_planning_probate across ALL Colorado metros
+    # Estate attorneys open practices regularly; needs fresh discovery every day
+    # 4 cities x 5 queries = up to 400 new estate leads/week
+    run_script("discover_estate_denver.py")
     run_script("discover_estate_boulder.py")
+    run_script("discover_estate_colorado_springs.py")
+    run_script("discover_estate_fort_collins.py")
 
     # Step 3: Accounting — DISABLED. Managed by USP Weekly Discovery (Sundays).
     # Accounting leads are fully loaded (23 leads from initial enrichment).

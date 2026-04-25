@@ -14,7 +14,7 @@ from engines.enrichment import enrich_all_unenriched
 
 def main():
     print("[STEP 2] Starting enrichment batch...", flush=True)
-    result = enrich_all_unenriched(batch_limit=20)
+    result = enrich_all_unenriched(batch_limit=200)
     print(json.dumps(result, indent=2, default=str), flush=True)
 
     print(f"[STEP 2] Enrichment complete: {result['successful']} succeeded, {result['failed']} failed", flush=True)
